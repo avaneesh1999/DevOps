@@ -20,7 +20,7 @@ func main(){
 	fmt.Println("Enter your  first Name: ")
 	fmt.Scan(&firstName)
 
-	fmt.Println("Enter your last  Name: ")
+	fmt.Println("Enter your last  Name:  ")
 	fmt.Scan(&lastName)
 
 	fmt.Println("Enter your email address :")
