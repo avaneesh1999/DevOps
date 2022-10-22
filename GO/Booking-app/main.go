@@ -33,7 +33,7 @@ func main(){
 
 	fmt.Printf(" Thankyou %v %v for Booking %v tickets  you will recieve a confirmation on your %v email address. \n",firstName,lastName,userTicket,email,);
     
-	fmt.Printf("there are Total %v Tickets and %v are available now hurry up!!! \n",Totaltickets,RemainingTickets,)
+	fmt.Printf("There are Total %v Tickets and %v are available now hurry up!!! \n",Totaltickets,RemainingTickets,)
 
 
 
