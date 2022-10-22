@@ -17,16 +17,16 @@ func main(){
 	var email string
 	var userTicket uint
 
-	fmt.Println("Enter your  first Name:")
+	fmt.Println("Enter your  first Name: ")
 	fmt.Scan(&firstName)
 
-	fmt.Println("Enter your last  Name:")
+	fmt.Println("Enter your last  Name: ")
 	fmt.Scan(&lastName)
 
 	fmt.Println("Enter your email address :")
 	fmt.Scan(&email)
 
-	fmt.Println("Enter user Ticket:")
+	fmt.Println("Enter user Ticket: ")
 	fmt.Scan(&userTicket)
 
 	RemainingTickets=Totaltickets-userTicket
