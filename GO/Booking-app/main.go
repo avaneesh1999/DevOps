@@ -23,7 +23,7 @@ func main(){
 	fmt.Println("Enter your last  Name:  ")
 	fmt.Scan(&lastName)
 
-	fmt.Println("Enter your email address :")
+	fmt.Println("Enter your  email address :")
 	fmt.Scan(&email)
 
 	fmt.Println("Enter user Ticket: ")
