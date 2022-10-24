@@ -1,18 +1,21 @@
 package main
 
 import (
-	"fmt"
+	"fmt" 
 	"strings"
 )
 
 func main(){
 
+	//va and const and printing 
+
 	var confrenceName= "PVR"
 	const Totaltickets=50
 	var RemainingTickets uint
-
-    //slices 
+	//slices 
 	bookings:=[]string{}
+
+    
 
 	fmt.Printf("Welcome to %v \n",confrenceName);
 	fmt.Printf("Get your Tickets here \n");
@@ -24,7 +27,8 @@ func main(){
 	var lastName string
 	var email string
 	var userTicket uint
-
+	
+     //user input & pointers
 	fmt.Println("Enter your  first Name ")
 	fmt.Scan(&firstName)
 
@@ -51,6 +55,12 @@ func main(){
 	//   for_, booking := range bookings {
 	// 	var names = strings.Fields(booking)
 	// 	 firstNames = append(firstNames,names[0])
-	// }
+	//   }
 }
+
+    //If else statement
+   if RemainingTickets==0{
+	  fmt.Printf("OUR TICKETS HAS BEEN BOOKED")
+   }
+
 }
