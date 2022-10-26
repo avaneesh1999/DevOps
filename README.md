@@ -1,7 +1,16 @@
 # DevOps
 
-*Golang
----> https://youtu.be/yyUHQIec83I
 
-*AZ900 CERTIFICATION
---->DAY1 DP200 PROGRAM 
+<h3 align="center">Golang</h3>
+
+- Followed  https://youtu.be/yyUHQIec83I  Playlist
+
+- built an CLI application for TICKET BOOKING.
+
+
+
+<h3 align="center">AZ 900* CERTIFICATION</h3>
+
+- DAY 1:- Intro to Portal 
+
+- DAY2:- Hands on (Data lake,Blob storage).
