@@ -14,3 +14,5 @@
 - DAY 1:- Intro to Portal 
 
 - DAY2:- Hands on (Data lake,Blob storage).
+
+- DAY3:- Hands on (SQL Database,Data Masking).
