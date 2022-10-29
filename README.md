@@ -17,4 +17,5 @@
 
 - DAY3:- Hands on (SQL Database,Data Masking).
 
-- DAY4:- Hands on (Virtual Machine).
+- DAY4:- 1.Hands on (Virtual Machine).
+         2.Following https://youtu.be/kikcPTxcYCA for AZ900 DUMP QUESTIONS
