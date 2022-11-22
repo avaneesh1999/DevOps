@@ -25,4 +25,5 @@
 <h3 align="center">DOCKER</h3>
 
 - DAY6:- Docker Fundamentals and deployment and building of Docker File,Image and Container.
+- DAY7:- Passed  AZ900 Certification Scored 925.
 
