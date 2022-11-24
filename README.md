@@ -27,4 +27,5 @@
 
 - DAY6:- Docker Fundamentals and deployment and building of Docker File,Image and Container.
 - DAY8:- Dockerized a REACT application
+- DAY9:- Pushed React Docker image to docker Hub https://hub.docker.com/r/asc1881/reactimage
 
