@@ -21,9 +21,10 @@
          2.Following https://youtu.be/kikcPTxcYCA for AZ900 DUMP QUESTIONS
          
 - DAY5:- Failed AZ900 Certification Scored 670.
+- DAY7:- Passed  AZ900 Certification Scored 925.
 
 <h3 align="center">DOCKER</h3>
 
 - DAY6:- Docker Fundamentals and deployment and building of Docker File,Image and Container.
-- DAY7:- Passed  AZ900 Certification Scored 925.
+- DAY8:- Dockerized a REACT application
 
