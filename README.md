@@ -23,9 +23,10 @@
 - DAY5:- Failed AZ900 Certification Scored 670.
 - DAY7:- Passed  AZ900 Certification Scored 925.
 
-<h3 align="center">DOCKER</h3>
+<h3 align="center">DOCKER & Kubernetes </h3>
 
 - DAY6:- Docker Fundamentals and deployment and building of Docker File,Image and Container.
 - DAY8:- Dockerized a REACT application
 - DAY9:- Pushed React Docker image to docker Hub https://hub.docker.com/r/asc1881/reactimage
+- DAY 10:- Working on a Task to Deploy Dockerize WEB app to AKS(azure Kubernetes Service) in Production environment.
 
