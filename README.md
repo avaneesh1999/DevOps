@@ -31,4 +31,4 @@
 - DAY 10:- Working on a Task to Deploy Dockerize WEB app to AKS(azure Kubernetes Service) in Production environment.(IN progress).
 - DAY 11:-Learning K8s practically by creating cluster,exploring nodes and pods.
 
-learning linux
+<h3 align="center">LINUX </h3>
