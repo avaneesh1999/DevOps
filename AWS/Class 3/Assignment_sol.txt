@@ -1,0 +1,13 @@
+# Assignment 1 :- How to upload HTML web pages on Apache2 web server in EC-2 Instance?
+Please justify with step by step answers.
+
+To upload HTML web pages on Apache2 web server in EC-2 Instance, you can follow these steps:
+
+1. Connect to your EC2 instance using SSH.
+2. Install Apache2 web server using the following command: `sudo apt-get update && sudo apt-get install apache2`
+3. Navigate to the `/var/www/html/` directory using the following command: `cd /var/www/html/`
+4. Create a new HTML file for your website using the following command: `sudo nano index.html`
+5. Add your HTML code to the file and save it.
+6. Restart the Apache2 web server using the following command: `sudo service apache2 restart`
+7. Open your web browser and enter your EC2 instance's public IP address in the address bar to view your website.
+

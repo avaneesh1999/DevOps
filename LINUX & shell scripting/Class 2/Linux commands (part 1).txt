@@ -1,0 +1,195 @@
+Getting started with Linux commands :- 
+***Use Tab key for auto complition 
+
+
+User information :- 
+
+1. who
+- Login name of the user
+- Date & Time of login
+- remote host name of user
+
+2. whoami
+- It is diplaying the system's username 
+
+3. id
+- it displays the user identification 
+(real and effective group id's) 
+
+4. groups : this commands is used to display the groups 
+for which the user is belonging to. 
+
+5 ways to become a sudo user in Linux OS 
+(1) sudo -i
+(2) sudo -s
+(3) sudo su -
+(4) su -root
+(5) su -
+
+6. users : Display the username of all users currently logged on the system
+
+7. Clear
+
+8. lastlog : The lastlog command is used to find the details of a recent login of all users 
+
+
+------------File & Directory commands ---------
+
+/ is your root directory 
+~ is your home directory
+
+1. pwd 
+- It prints present working directory 
+
+2. ls 
+- to list directories 
+
+3. mkdir 
+The mkdir command allows users to create directory or folder
+
+4. rmdir 
+The rmdir command allows user to remove directory 
+
+----> -p  that refers for the parent (which means remove directory along with it's ancestors)
+----> -v verbose will give output for the processed directory
+
+
+------------------------- Installing packages --------------------------------------------------------
+
+1. Install package with help of yum command which will look like 
+
+yum install package_name
+
+2. yum info package_name 
+this is going to diplay brief detail about a package 
+
+3. yum remove package_name 
+this is going to remove the package 
+
+4. Installing a package from a localfile    ./filename 
+
+---------------------------------------------------------------------------------------------------
+Disk Usage commands 
+
+1. du pathofdirectory
+- To find out the disk usage summary 
+
+2. du -h pathofdirectory
+This will bring up your information in human readable format
+
+3. du -sh nameofdirectory
+This is to find out total disk usage 
+
+4.  ah -sh nameofdirectory
+
+---------------------------------------------------------------------
+System & harware information 
+
+1. uname -a 
+a here is for all 
+
+2. uname -s 
+to know the kernal name 
+
+3. uname -r 
+print kernal release version 
+
+4. Print Architecture uname -m
+
+5. uname -o print your operating system 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

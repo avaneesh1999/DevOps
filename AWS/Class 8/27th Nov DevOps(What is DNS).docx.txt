@@ -1,0 +1,45 @@
+﻿What is DNS? 
+* Domain Name System -------🡪 translates the human friendly hostnames into the machine ip address
+* www.xyz.com ---🡪 172.198.0.1
+* Backbone
+* DNS hierarchy :-         .com 
+Example.com
+www.example.com
+api.example.com        
+
+DNS Terminologies
+
+
+* Domain registrar :- Amazon Route 53, GoDaddy, Hostinger
+* DNS :- A, AAAA, CNAME, NS………
+* Zone File :- DNS Records
+* Name Server :- Resolving DNS Queries 
+* TLD 
+SLD 
+* http – Protocol to send data
+* FQDN : Fully qualified domain name
+* Saksham. Is subdomain here
+* Top Level domain :- .com .net .io .uk
+* Second level domain computerguy.com
+
+http:saksham.www.computerguy.com
+How DNS is working ? 
+Browser ----🡪 www.google.com --------------🡪Local DNS is Connected
+   * Root DNS (Managed by ICANN)        
+   * TLD Server (Managed is IANA – Sister org of  ICANN)
+   * SLD DNS Server (Managed by Domain Registrar)
+   * A highly available, scalable and fully managed, authoritative control 
+For eg. You can Update the DNS as per your wish and whenever you want
+   * Only AWS service which provides 100% availability 
+   * How you want to route your traffic for a domain 
+   * Each records contain :- 
+TTL :- Time to live – amount of time the record cached at DNS Resolver
+Research about :- A / AAAA / CNAME / NS  ----- CAA, DS, MX, NAPTR, PTR, TXT, SOA, SPF, SRV
+1. A – map a hostname to IPv4
+2. AAAA – map a hostname to IPv6
+3. CNAME – maps a hostname to another hostname
+NS :- It is the name server for the hosted zone
+      * Control how traffic is routed for a domain
+      * Public Hosted zone :- Control how traffic is routed for a domain
+      * Private Zone :- contain record to specify how your route traffic within one or more VPCs
+Application.company.internal

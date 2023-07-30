@@ -1,0 +1,232 @@
+VPC  : Virtual Private Cloud 
+
+- VPC, Subnets, Internet Gateways & NAT Gateways 
+- Security groups, NACL, VPC Flow logs
+- VPC peering & VPC End points 
+
+VPC : Deploy your resources 
+
+Subnets :- Allow you to partition your network inside your VPC 
+
+Public Subnet :- It is a subnet that is accessible from internet
+
+Private Subnet :- It is a subnet that is not accessible from internet
+
+
+VPC -------> EC ---> Public Private 
+
+AWS Cloud 
+                           Region
+AZ1  											   AZ2 
+VPC (Subnet)								     (subnets)
+
+
+Internet Gateways 													
+- Help our VPC instances to connect with the internet
+
+
+
+
+
+NAT Gateways  : Managed by AWS 
+It will allow your instance in your private subnets to access internet while remaining private
+
+Assignment :-  - Create your own new custom VPC
+- And configure your EC2 linux instance inside your custom VPC 
+- and then create 3 subnets of that VPC 
+- Attach an internet gateway to your custom VPC
+
+
+Network access control list & Security Groups :- 
+
+(VPC) --------> Public Subnet    (NACL & Security Group) 
+
+- Allow and Deny Rules
+- They are attached at Subnet level only 
+- Rules only includes IP Address
+
+Security Groups :- 
+- It is a firewall that controls traffic to and from an EC2 instance
+- Can have only allow rules 
+- Configure and apply security groups 
+
+
+    NACL            						vs 							    Security Groups
+- Operated at the subnet level								Operates on Instance Level
+- Supports allow and deny rules only						Supports allow rules
+- Is stateless :- 									Stateful :- Return traffic that is automatically allowed, regardless of any rules
+It is going to return traffic that must								
+be explicitly allowed by rules
+
+VPC Peering 
+
+- If you want to use 2 VPC's or more, privately using AWS network we use peering
+- Make them behave as if they are in same network 
+
+
+VPC A <-------------VPC Peering----------------> VPC B 
+|
+|
+|Peering
+|
+|
+VPC C
+
+- You can peer VPC in multiple region 
+- You peer VPC's in between multiple AWS aacounts
+
+
+VPC End Points :- 
+
+VPC end points is allowing you to connect various AWS services using private network of the public 
+www network
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+Amazon VPC : 
+is a Virtual Private Cloud, and it lets you provision a logically 
+isolated section of the AWS cloud where you can launch AWS resources in a virtual network you define: selection of your own IP address range, creation of subnets, and more. 
+It is like a virtual data center in the cloud.
+
+There are two types of DBs, relational and non-relational: 
+* The relational DB is called RDS (Relational Database Service) 
+* The non-relational DB is called DynamoDB. (No-Sql) MongoDB JSON/Documents
+
+6 different DB services: 
+* SQL Server by Microsoft  -- ROW AND COLUMN -- TABULAR
+* Oracle
+* MySQL server
+* PostgreSQL
+* Amazon Aurora
+* MariaDB
+
+RDS: SQL 
+Non-Relational: No-Sql Database Dynamo DB
+
+ 
+Two Key Features RDS: 
+Multi-AZ Deployments and Read Replicas
+
+-------------------------------------------------------------
+Amazon RDS Multi-AZ deployments provide enhanced availability for database instances within a single AWS Region. With Multi-AZ, your data is synchronously replicated to a standby instance in a different AZ.
+In the event of an infrastructure failure, Amazon RDS performs an automatic fail-over to the standby, minimizing disruption to your applications without administrative intervention.
+
+Multi-AZ Use Cases
+To get high availability, and enhance availability during planned system maintenance, and help protect databases against DB instance failure and Availability Zone disruption.
+To get data redundancy, eliminate I/O freezes, and minimize latency spikes during system backups.
+-------------------------------------------------------------------------------
+
+Amazon RDS Read Replicas enable you to create one or more read-only copies of your database instance within the same AWS Region or in a different AWS Region to increase the scalability.
+
+Updates made to source database are then asynchronously copied to Read Replicas. 
+Writes can happen in main database only and reads can happen in Read replica database.
+
+---------------------------------------------------------------------------------------------
+OLTP( Online Transaction Processing) vs OLAP ( Online Analytics processing)
+
+
+OLTP --> RDS/SQL Databases/ Tabular Databases , Short Term Processing/ Trasaction
+OLAP Systems are the example of Data Warehousing. --->Longer Term!
+
+Data Analysis, Data Cleaning ---> OLAP ----> AWS Redshift, DeltaLakes
+
+
+
+What is Cache?
+
+* Caching is a mechanism to improve the performance of any type of application. 
+Technically, caching is the process of storing and accessing data from a cache. 
+
+* A cache is a software or hardware component aimed at storing data so that future requests for the same data can be served faster.
+
+ElastiCache: a web service that makes it easy to operate. 
+The service improves the performance of web applications by allowing you to retrieve information from from fast in-memory caches. 
+instead of relying entirely on slower disk-based databases.
+
+ElastiCache supports two open-source in-memory caching engines:
+
+* Memcached
+* Redis
+
+Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for Amazon DynamoDB that delivers up to a 10 times performance improvement—from milliseconds to microseconds—even at millions of requests per second.
+
+
+Table name	    Primary key
+ProductCatalog	Partition key: Id (Number)
+
+
+
+Redis or Memhanched (PORT NO, DNS/IP) Username and Passowrd :  ----> EC2 Instance 
+
+redis module , ping onto the endpoint cluster on/off
+redis pkg ---> connection
+
+MYSQL/ AWS ---> RDS(EC2)  / NOSQL(Connection String)
+
+
+AWS Redshift: JDBC Connector(Module to Connect through database/ java Java Database Connector)
+
+
+10X Speed in processing same request/caching?
+
+REDIS: 5 sec
+Memchached: 6 sec
+DynamoDB+REDIS: 7sec
+DynamoDB+DAX: 2 milisec million
+
+DynamoDB acelltor is new way of getting better performance
+
+https://dynobase.dev/dynamodb-dax/

@@ -1,0 +1,423 @@
+AWS Shared Responsibility Model 
+
+- AWS Responsibility - Security of the cloud 
+	- Hardware, Software, facilities & networking part 
+	
+- Managed services like S3, DynamoDB, RDS etc. 
+
+
+**** Customer 
+	- EC2 instances, management of OS , firewall, network configuration, IAM 
+	- Encryption 
+	
+- Shared Controls :
+	- Patch management, Configuration Management, Awareness && Training
+
+
+*******************RDS (Security)**************************************
+Your responsibility :- 
+- Check the ports / IP address / security groups Inbound rule in DB
+- In-database = user creation and permission, Database access 
+- Database encryption 
+- Only allow SSL connection 
+
+AWS Responsibility :- 
+- Manage your EC2 instance, disable SSH access or whitelist any individual IP Address
+- Automated OS & DB patching 
+- Instances in Disk and gurantee it functions
+
+***************************S3**********************************
+Your Responsibility :- 
+- Basic Configuration
+- Bucket Policies
+- IAM user and roles
+- Enable Encryption
+
+AWS Responsibility:- 
+- Unlimited Storage 
+- Encryption 
+- Seperation of data
+- AWS ensures that without appropriate permission, no employee can access that data. 
+
+
+What is DDOS? 
+Distributed denial of service 
+
+
+ATTACKER ------1-----2----3----4---5(Master Machine) ------ so many bots ------- Application server
+
+DDOS protection for AWS 
+
+1. AWS Shield > a) Standard ------ no additional cost 
+				b) Advanced ------ 24/7 DDOS prtotection 
+2. AWS WAF : Filter specific request based on rules
+3. Cloud front 
+
+user ------route53  (AWS Shield) -------Cloud front distribution (AWS WAF)-------> security group (AWS Shield) -------Public subnets
+
+AWS Shield :- 
+Standard :- Free service that is activated for every AWS customer
+			SYN / UDP floods, Reflection attacks  & other 3rd and 4th Layer attacks
+			
+
+Advanced Version :-  DDOS Mitigation ----24/7 -----along with assistance ($3000 per month & per organistaion) 
+			- EC2, ELB, Cloud Front, Route53
+			
+			(DRP Team) - Ddos response team 
+			
+AWS WAF :- 
+- Protect your web apps which Layers 7 (application layer) 
+  ALB, API Gateway, Cloudfront
+  
+Web ACL (Access control List) 
+- IP Address, HTTP Header, URL Strings 
+- Protecting from common attacks :- SQL Injection, Cross - Site SCripting (XSS) 
+- Geo-match (block the region where you don't wish to show your product) 
+
+Pentesting or penetration testing operation on AWS Cloud
+(VAPT) Vulnerability assessment & Pentesting 
+
+
+
+
+- EC2 ---- NAT Gateways & ELB
+- RDS
+- Cloud front
+- Aurora 
+- API Gateways 
+- AWS Lambda functions 
+- Lightsail 
+- Beanstalk environment
+
+
+AWS Prohibited activities 
+
+1. DNS zone walking via Amazon route 53 hosted zone
+2. DOS & DDos
+3. Port flooding
+4. Protocol flooding
+5. Request flooding (Login request flooding, API request flooding) 
+
+
+0 day vulnerability :- aws-security-simulated-event@amazon.com
+
+https://aws.amazon.com/security/penetration-testing/
+https://aws.amazon.com/compliance/shared-responsibility-model/
+
+
+
+*********DATA AT REST VS DATA IN TRANSIT ******************
+
+Encrypted data at rest EFS -------------Encrypted in transit while uploading--------Encrypted at rest on S3
+
+At rest :- data that is stored or archived on device 
+
+In transit (in motion)
+
+We want to encrypt data in both the states 
+
+******************************AWS KMS for that ***********************
+
+KMS = AWS manages the encyption keys for us
+
+Encryption OPT IN :- 
+1. RDS database 
+2. EFS 
+3. Redshift databases 
+4. S3 
+5. EBS Volumes
+
+Automatically enabled encrypyted service by AWS 
+
+1. S3 
+2. Cloudtrail logs 
+3. Storage Gateway
+
+Cloud HSM :- 
+KMS => AWS manages the software for encryption
+Cloud HSM => AWS provisioned encyption hardware
+Dedicated hardware => HardwareSecurity 
+
+
+
+**********************AWS Certificate manager (ACM) 
+
+- SSL/TLS Certificate
+- TLS certificate are free of charge 
+- Integration :- 
+	ELB
+	Cloudfront 
+	API's and on API Gateway
+	
+*******************AWS secret Manager***********************
+
+- Store encrypted credentials for RDS DB, DOC DB, REDSHIFT, API KEY or Token
+
+- Store plain text passwords as well in here. 
+- Rotation password can be done on the basis of hours, minutes, days 
+
+******************Compliance*******************************
+
+AWS Artifacts 
+
+- Artifacts reports :- You can download AWS security and Compliance 
+							- ISO 27001
+							- PCI : Payment card industry
+							- SOC : System and organistaion control 
+							
+- Artifact agreements :- BAA (Business associate Addendum)
+						 HIPAA (Health Insurance Portability and accountability activated)
+						 
+						 
+						 
+Few more Cloud sec resources :- 
+
+1. GuardDuty 
+2. Inspector 
+3. Config 
+4. Macie 
+5. Security hub 
+6. Amazon detective 
+
+
+Root User privileges :- 
+
+- Root user can be created with the account that is created for the first time
+- Has a complete access to all aws services
+- Don't forget to lock your AWS account root user accesskeys 
+
+Actions that can only performed by root user :- 
+
+1. Change account setting and information (your name, your email, root user pass, root access keys)
+2. View tax and invoice 
+3. Close you AWS account
+4. Restore IAM permissions 
+5. Change or cancel any of your AWS suuport plan 
+6. Configure an Amazon S3 bucket to enable MFA 
+7. Edit or delete any S3 buycket policy that includes any invalid VPC ID or any endpoint ID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 						 
+						 
+						 
+
+
+
+
+
+
+
+						 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

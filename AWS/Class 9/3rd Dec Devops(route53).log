@@ -1,0 +1,43 @@
+Register a domain 
+DNS Record
+
+TTL (Time to live) cache ---stored inside your browser
+ 
+- DNS Economical 
+- 1000 sec 
+learnaws.link -----> 11.22.33.44 ------> DNS----Browser
+
+-> Multiple EC2 Instances 
+-> ELB
+
+#!/bin/bash
+# Use this for your user data (script from top to bottom)
+# install httpd (Linux 2 version)
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
+
+
+
+1st EC2 Machine number 1 :- 35.171.22.122     (Public ip)
+	ec2-35-171-22-122.compute-1.amazonaws.com   (Public DNS)
+	us-east-1d
+	
+2nd instance :- http://3.85.119.91/   (Public IP)
+	ec2-3-85-119-91.compute-1.amazonaws.com   (Public DNS) 
+	us-east-1d
+	
+
+	
+Cloud Shell :- 
+To gather the information about nameservers :- 
+sudo yum install -y bind-utils	
+dig url url
+nslookup url
+	
+	
+	
+	
+

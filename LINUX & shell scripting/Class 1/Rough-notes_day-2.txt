@@ -1,0 +1,71 @@
+******Rough notes**** 
+you need 2 pre requisite to follow this session
+ 
+1. VirtualBox 6.x
+2. Download ISO of CentOS 7
+
+Configuring CentOS in Virtual Box :- 
+
+Step 1 :- Click on New
+Step 2 :- Name (any name name)
+				Type :- Linux 
+				Version :- Redhat
+Step 3 :- Ram to atleast 2GB
+Step 4 :- VDI as a file type
+Step 5 :- Dynamicall allocated file size 
+
+Quick prompt :- Not able to see 64 bit? Enable virtualization in your bios setting
+https://www.youtube.com/watch?v=buKSWH_g69M
+
+
+Dummy in session task :- Go to a directory of Desktop & 
+there i need make a directory named as iNeuron & inside that directory
+create a text file named devops.txt -> chmod permision of this text file to 777.
+
+---> cd ~ 
+---> whoami 
+---> pwd
+---> touch 
+---> mkdir 
+---> ls
+---> ls -l
+
+User      Group     Other 
+4          6          7
+Read -----> 4 
+Write ----> 2 
+Execute ---> 1 
+4 + 2 + 1 = 7
+
+chmod 467 devops.txt 
+
+
+
+
+
+saksham@ineuron.ai
+
+Assignment 1 :- Install all the dependencies for making centOS full screen
+Assignemnt 2 :- Please update you CentOs machine
+
+                                                  ---------Package Meta Data
+Linux System ----> Package (Deb-RPM-YUM) ---> Repository
+                                                  -----Package <------Package Dependencies
+
+
+RPM (Redhat Package Manager)     VS      YUM (Yellow Dog Updater)
+-- RPM can install only single           Yum can install multiple packages at a time
+   package at a time
+
+-- RPM cannot resolve dependencies       Yum can resolve dependencies automatically
+-- Cannot rollback with RPM					  Yum can rollback any changes	 
+
+
+
+
+
+
+
+
+
+             

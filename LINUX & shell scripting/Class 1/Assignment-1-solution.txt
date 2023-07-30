@@ -1,0 +1,21 @@
+#Install all the dependencies for making centOS full screen
+
+#Please update you CentOs machine
+--> sudo yum update
+
+#Login into your account and then change password?
+Change your password into IneuR0n#42 and hit the Enter key
+Explain what happen and give screenshot?
+--> used passwd  command
+    password was changed succesfully
+
+#Try again to change password but use like password 1234 or abcd
+Explain what happen and give screenshot?
+--> gives bad password prompt
+
+#Try again to change password but now don’t use any password just hit Enter key
+Explain what happen and give screenshot?
+--> gives no password supplied
+
+--> rest of all task were executed in terminal successfully.
+

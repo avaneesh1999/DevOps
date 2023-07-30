@@ -1,0 +1,52 @@
+#Create readfile.sh in which you can read the information of PWD like size,
+permission, date time etc.
+
+#!/bin/bash
+echo "Size: $(du -sh . | cut -f1)"
+echo "Permission: $(ls -ld . | cut -d ' ' -f1)"
+echo "Date and Time: $(date)"
+
+
+
+#Take an input of name from user and print Have a great day ahead {name}
+
+#!/bin/bash
+read "Please enter your name:" name
+echo "Have a great day ahead, $name!"
+
+
+#->Let’s take a scenario of fintech app program in which we want to have three separate
+outputs for 3 different situations:
+
+The balance is less than zero
+The balance is zero
+ The balance is above zero
+For instance, in the following program, use the if, elif, else statements to display different outputs in
+different scenarios:
+
+Use “if” condition to check if the balance is less than zero. If this condition evaluates to true, display
+the message using the echo command: “Balance is less than zero, Please add more funds else you
+will be charged penalty”.
+If the above condition does not match, then use “elif” condition to check if the balance is equal to
+zero. If it evaluates to true, display the message: Balance is zero, please add funds
+If none of the above condition matches, use the “else” condition to display the: Your balance is
+above zero.
+
+
+
+#!/bin/bash
+
+read -p "Enter the balance : " balance
+
+if [ $balance -lt 0 ]
+then
+    echo "Balance is less than zero, Please add more funds else you will be charged penalty"
+elif [ $balance -eq 0 ]
+then
+    echo "Balance is zero, please add funds"
+else
+    echo "Your balance is above zero"
+fi
+
+
+

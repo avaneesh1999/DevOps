@@ -1,0 +1,26 @@
+#Create an IAM user with username of your own wish and grant
+administrator policy.
+
+--> successfully created on console
+
+#Hello students, in this assignment you need to prepare a
+developers team of avengers.
+- Create 3 IAM users of avengers and assign them in developer’s groups with
+IAM policy.
+
+--> successfully created on console
+
+# Define a condition in policy for expiration like
+"DateGreaterThan": {"aws:CurrentTime":
+"2020-04-01T00:00:00Z"},
+
+"DateLessThan": {"aws:CurrentTime":
+
+"2020-06-30T23:59:59Z"}
+Define the span of 4 months as per your wish
+
+#Prepare 15 authentic MCQ questions related to IAM.
+
+#Launch your linux instance in IAM and update your machine.
+-->successfully created on console
+  sudo yum update command is used to update linux machines.

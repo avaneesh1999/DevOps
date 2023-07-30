@@ -1,0 +1,9 @@
+# Create a file like nano file1.txt
+ Edit some data and then save the file
+
+--> nano file1.txt
+    wrote one line
+    save with ctrl + O
+    exit with ctrl + x
+
+#rest of assignments were completed in terminal

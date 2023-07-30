@@ -1,0 +1,124 @@
+********************* TRUST THE PROCESS*************************
+
+Day 1:- DevOps jargons
+Day 2:- completed Cent Os installation and basics
+Day 3:- installed vagrant
+        completed basic linux commands
+Day 4:-  completed Assignments
+         intro to AWS,Linode and putty 
+Day 5:- completed aws intro ,linode 
+Day 6 :- intro to aws certifications
+         IAM user groups and policies
+
+Day 7:- EC2 instances
+        posted linux cheat sheet https://avaneeshsingh.hashnode.dev/linux-commands-cheat-sheet?ref=twitter-share
+
+Day 8:- basics of  bash scripting
+        Assignments
+
+Day 9:- Shell scripting 
+        if - else statement 
+        loops
+
+Day 10:- shell scripting
+         basics completed.
+         Assignment 2 completed on linux
+
+Day 11 :- started ELB(Elastic load balancer) class
+          
+
+Day 12 :- completed ELB class
+          launched instance ELB
+
+Day 13:- Revision class shell scripting         
+
+Day 14:- Revision class ELB
+         
+
+Day 15:- Completed ELB revision class
+        Elastic beanstalk
+        AWS lamda
+        S3
+        S3 Glacier
+        Lightsail
+
+Day 16:-File storage and block storage 
+        EBS
+        
+
+Day 17 :- EFS
+          AWS Cloud trail
+          AWS config
+          Types of DB in AWS 
+
+Day 18:- Relational database (RDS) and Non Relational database
+         Multi AZ deployments
+         Read Replicas
+         
+
+Day 19:- caching
+         Elastic cache
+         redis cache
+         memecache
+         redshift
+
+Day 20 :- Revision Shell scripting
+          Task:- shell script to monitor AWS resources
+
+Day 21 :- DNS & its working
+          completed class DNS
+        
+Day 22 :- task for previous class 
+          Route 53  
+
+Day 23:- Completed Route 53 class 
+         H.W :- To do task
+
+Day 24:- Cloud Security
+         DDOS
+         KMS
+
+Day 25 :- Docker intro
+          Docker cheatsheet  :- https://hackmd.io/LLmIjrQBSHW_hw-0wBIt5A
+          Docker commands
+          Amazon ECS(Elastic container service)
+          completed docker 2nd till 1:30
+          practiced docker commands
+
+Day 26:- Monolith vs microservice architecture
+         practiced docker commands
+
+Day 27:- made docker notes
+         Practiced basic docker commands
+
+Day 28:- VPC intro
+
+Day 29:-VPC and its basics
+        theory + hands on
+Assignment :-  Create your own new custom VPC
+- And configure your EC2 linux instance inside your custom VPC 
+- and then create 3 subnets of that VPC 
+- Attach an internet gateway to your custom VPC
+completed VPC
+
+
+Day 30:-Docker file and its tags
+        
+day 31 :- Docker INSTRUCTIONS
+          wrote dockerfile for demo python application
+          GIT intro
+                  
+         
+          
+
+          
+
+        
+
+
+        
+       
+
+
+
+         
