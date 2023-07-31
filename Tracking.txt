@@ -108,7 +108,7 @@ Day 31 :- Docker INSTRUCTIONS
           wrote dockerfile for demo python application
           GIT intro
 
-Day 32:- GIT commands
+Day 32:- GIT commands and  cmd
                   
          
           
