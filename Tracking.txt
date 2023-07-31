@@ -104,9 +104,11 @@ completed VPC
 
 Day 30:-Docker file and its tags
         
-day 31 :- Docker INSTRUCTIONS
+Day 31 :- Docker INSTRUCTIONS
           wrote dockerfile for demo python application
           GIT intro
+
+Day 32:- GIT commands
                   
          
           
