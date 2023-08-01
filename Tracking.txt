@@ -110,7 +110,8 @@ Day 31 :- Docker INSTRUCTIONS
 
 Day 32:- GIT commands 
 
-Day 33:- Kubernetes intro
+Day 33:- Kubernetes intro 
+         installed kubectl & minikube
                   
          
           
