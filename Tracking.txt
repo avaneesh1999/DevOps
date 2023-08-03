@@ -115,6 +115,7 @@ Day 33:- Kubernetes intro
                  
 Day 34:- Kubernetes architecture
          completed k8's architecture course class
+         Kubernetes resource :- https://github.com/collabnix/kubelabs
              
           
           
