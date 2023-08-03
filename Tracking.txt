@@ -113,7 +113,8 @@ Day 32:- GIT commands
 Day 33:- Kubernetes intro 
          installed kubectl & minikube
                  
-Day 34:- Kubernetes architecture 
+Day 34:- Kubernetes architecture
+         completed k8's architecture course class
              
           
           
