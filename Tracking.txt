@@ -120,6 +120,7 @@ Day 34:- Kubernetes architecture
 
 Day 35:- interacted with play with Kubernetes
          https://labs.play-with-k8s.com/
+         Project:- Deploying a staic app on K8's
 
         
 
