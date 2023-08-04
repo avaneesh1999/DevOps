@@ -106,6 +106,7 @@ Day 30:-Docker file and its tags
         
 Day 31 :- Docker INSTRUCTIONS
           wrote dockerfile for demo python application
+
           GIT intro
 
 Day 32:- GIT commands 
@@ -116,9 +117,9 @@ Day 33:- Kubernetes intro
 Day 34:- Kubernetes architecture
          completed k8's architecture course class
          Kubernetes resource :- https://github.com/collabnix/kubelabs
-             
-          
-          
+
+Day 35:- interacted with play with Kubernetes
+         https://labs.play-with-k8s.com/
 
         
 
