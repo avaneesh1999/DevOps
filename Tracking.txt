@@ -120,8 +120,10 @@ Day 34:- Kubernetes architecture
 
 Day 35:- interacted with play with Kubernetes
          https://labs.play-with-k8s.com/
-         Project:- Deploying a staic app on K8's
-         completed till 1:48
+         
+        
+Day 36:- Project:- Deploying a staic app on K8's
+         taints and toleration,Node affinity
 
         
 
