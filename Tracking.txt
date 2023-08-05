@@ -124,6 +124,7 @@ Day 35:- interacted with play with Kubernetes
         
 Day 36:- Project:- Deploying a staic app on K8's
          taints and toleration,Node affinity
+         Project :- to do dynamic app deployment on K8 completed till 1:31
 
         
 
