@@ -129,6 +129,9 @@ Day 36:- Project:- Deploying a staic app on K8's
 Day 37:- windows was corrupted thats why unable to contribute.
          Terraform intro , installation and setup
 Day 38:- Completed terraform class
+
+Day 39:- CI/CD intro
+         Github actions till 1:00
         
 
 
