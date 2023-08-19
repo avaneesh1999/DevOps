@@ -133,6 +133,8 @@ Day 38:- Completed terraform class
 Day 39:- CI/CD intro
          Github actions till 1:00
 Day 40:- cleared AZ 204
+
+Day 41:- completed Github actions 1st class
          
         
 
