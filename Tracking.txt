@@ -135,6 +135,10 @@ Day 39:- CI/CD intro
 Day 40:- cleared AZ 204
 
 Day 41:- completed Github actions 1st class
+
+Day 42:- Completed Github actions
+
+Day 43:- started jenkins
          
         
 
