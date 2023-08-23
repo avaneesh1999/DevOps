@@ -141,6 +141,8 @@ Day 42:- Completed Github actions
 Day 43:- started jenkins
 
 Day 44:- completed jenkins class 1st
+
+Day 45:- making CI/CD for docker and django app
          
         
 
