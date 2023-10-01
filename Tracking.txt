@@ -147,6 +147,8 @@ Day 45:- making CI/CD for docker and django app 1 :15
 Day 46 :- working on above project
 
 Day 47 :- completed project https://github.com/avaneesh1999/Jenkins
+
+Day 48:- started Jenkins Freestyle project 
          
         
 
