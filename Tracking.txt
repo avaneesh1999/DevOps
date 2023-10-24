@@ -165,6 +165,8 @@ Day 55:- applied to jobs/giving an online test
 
 Day 56:- practiced an EKS Project
          https://youtu.be/RRCrY12VY_s?si=JN221WmpWeWAaTkK
+
+Day 57:-Started learning K8's concept
          
         
 
