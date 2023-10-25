@@ -167,6 +167,8 @@ Day 56:- practiced an EKS Project
          https://youtu.be/RRCrY12VY_s?si=JN221WmpWeWAaTkK
 
 Day 57:-Started learning K8's concept
+
+Day 58 :- Kubernetes architecture
          
         
 
