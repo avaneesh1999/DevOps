@@ -172,6 +172,9 @@ Day 58 :- Kubernetes architecture
 
 Day 59:- preparing for DevOps engineer interview
 Day 60:- revised Docker,AWS,K8s,Linux
+
+Day 61:- last 3 weeks had given 5 devOps interview
+         feedback :- Learn K8's and Terraform concepts
          
         
 
